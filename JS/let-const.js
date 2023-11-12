@@ -7,32 +7,32 @@ let money = 25;
 money = 35;
 console.log(money);
 
-const bird='jaan pakhi';
+const bird = 'jaan pakhi';
 // const diye reassign kora somvob na , reassign korte hole tahole "let" diye korte hbe .
 // bird='moyna pakhi';
-const message=bird+' '+ 'moyna pakhi';
+const message = bird + ' ' + 'moyna pakhi';
 console.log(message);
 
-const numbers=[15,12,13,14];
+const numbers = [15, 12, 13, 14];
 // reassign is not allowed
 // numbers=[21,31,41,51];
 numbers.push(222);
-numbers[1]=99;
+numbers[1] = 99;
 console.log(numbers);
 
-const student={
-    name:'Sagor',
-    address:'Rangpur'
+const student = {
+    name: 'Sagor',
+    address: 'Rangpur'
 }
 // reassign kora jay na
 // student={name:'Saon'}
 
 // perseal man bosano jay
-student.name='Saon';
+student.name = 'Saon';
 console.log(student);
 
-for(let i=0;i<numbers.length;i++){
-    const number=numbers[i];
+for (let i = 0; i < numbers.length; i++) {
+    const number = numbers[i];
     console.log(number);
 }
 
